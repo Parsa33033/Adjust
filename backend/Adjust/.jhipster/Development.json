@@ -1,0 +1,53 @@
+{
+  "name": "Development",
+  "fields": [
+    {
+      "fieldName": "date",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "nutritionScore",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "fitnessScore",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "weight",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "bmi",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "lbm",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "pbf",
+      "fieldType": "Double"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "adjustProgram",
+      "otherEntityRelationshipName": "developments",
+      "relationshipName": "adjustProgram",
+      "otherEntityField": "id"
+    }
+  ],
+  "changelogDate": "20201014074446",
+  "entityTableName": "development",
+  "dto": "mapstruct",
+  "pagination": "no",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

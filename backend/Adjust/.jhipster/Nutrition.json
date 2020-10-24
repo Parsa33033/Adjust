@@ -1,0 +1,87 @@
+{
+  "name": "Nutrition",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "text"
+    },
+    {
+      "fieldName": "unit",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "minUnitLow",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "minUnitNormal",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "minUnitMax",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "caloryBoundryMin",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "caloryBoundryMax",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "caloriesPerUnit",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "proteinPerUnit",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "carbsPerUnit",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "fatInUnit",
+      "fieldType": "Integer"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "mealsForNutrition",
+      "otherEntityRelationshipName": "nutrition",
+      "relationshipName": "mealTypes"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "food",
+      "otherEntityRelationshipName": "nutrition",
+      "relationshipName": "foods"
+    },
+    {
+      "relationshipType": "many-to-many",
+      "otherEntityName": "meal",
+      "otherEntityRelationshipName": "nutritions",
+      "relationshipName": "meals",
+      "otherEntityField": "id",
+      "ownerSide": false
+    }
+  ],
+  "changelogDate": "20201014075246",
+  "entityTableName": "nutrition",
+  "dto": "mapstruct",
+  "pagination": "no",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

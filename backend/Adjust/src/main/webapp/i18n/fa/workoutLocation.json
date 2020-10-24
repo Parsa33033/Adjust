@@ -1,0 +1,9 @@
+{
+  "adjustApp": {
+    "WorkoutLocation": {
+      "null": "",
+      "HOME": "HOME",
+      "GYM": "GYM"
+    }
+  }
+}

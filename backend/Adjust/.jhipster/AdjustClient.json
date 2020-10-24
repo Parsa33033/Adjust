@@ -1,0 +1,90 @@
+{
+  "name": "AdjustClient",
+  "fields": [
+    {
+      "fieldName": "username",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "firstName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "lastName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "birthDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "age",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "gender",
+      "fieldType": "Gender",
+      "fieldValues": "MALE,FEMALE"
+    },
+    {
+      "fieldName": "token",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "score",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "image",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "image"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "medicalProfile",
+      "otherEntityRelationshipName": "adjustClient",
+      "relationshipName": "medicalProfile",
+      "otherEntityField": "id",
+      "ownerSide": true
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "order",
+      "otherEntityRelationshipName": "adjustClient",
+      "relationshipName": "orders"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "adjustProgram",
+      "otherEntityRelationshipName": "adjustClient",
+      "relationshipName": "adjustPrograms"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "conversation",
+      "otherEntityRelationshipName": "adjustClient",
+      "relationshipName": "conversations"
+    },
+    {
+      "relationshipType": "many-to-many",
+      "otherEntityName": "tutorial",
+      "otherEntityRelationshipName": "client",
+      "relationshipName": "tutorials",
+      "otherEntityField": "id",
+      "ownerSide": true
+    }
+  ],
+  "changelogDate": "20201014073346",
+  "entityTableName": "adjust_client",
+  "dto": "mapstruct",
+  "pagination": "no",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

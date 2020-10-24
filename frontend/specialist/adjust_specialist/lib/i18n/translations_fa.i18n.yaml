@@ -1,0 +1,216 @@
+main:
+  ramsari: دکتر سوسن رامسری
+  adjust: اجاست
+  online_clinic: کلینیک آنلاین تغذیه و ورزش اجاست
+  score: امتیاز
+  token: کوپن
+  back: برگرد
+  ok: تایید
+  cancel: لغو
+  logout: خروج
+  buy: پرداخت
+  default_val: پیش فرض
+  update: بروزرسانی
+  tick_to_confirm: در صورت موافقت با شرایط ذیل تیک بزنید
+  pick_image: انتخاب تصویر
+  and: و
+  to: به
+  in_inside: در
+  till: تا
+  my: من
+  description: توضیحات
+  currency: ریال
+  phone_number: شماره تلفن
+  capture: بگیر
+  today: امروز
+  save: ذخیره
+  assess: ارزیابی
+  question: سوال
+  questions: سوالات
+  date: تاریخ
+  specialist: متخصص
+  client: مراجع
+  daily: روزانه
+  camera: دوربین
+  gallery: گالری
+  day: روز
+  month: ماه
+  year: سال
+  choose: انتخاب
+  degree: درجه
+  question_from_specialist: سوال از متخصص
+  message: افزودن پیام
+  yes: بله
+  no: خیر
+program:
+  box_instruction: برای دیدن برنامه های تغذیه و ورزشی به راست و برای ثبت و مشاهده ی پیشرفت و همچنین سوال از متخصص خود به راست بکشید
+  fitness_nutrition_program: برنامه تغذیه و ورزشی
+  program: برنامه
+  programs: برنامه ها
+  fitness: ورزش
+  nutrition: تغذیه
+  not_ready: برنامه شما طراحی نشده است!
+  not_exist: برنامه ای موجود نمی باشد
+  token_not_enough(String token): "توکن شما کافی نیست. برای دریافت برنامه تغذیه و ورزشی به $token توکن نیاز دارید."
+  token_deducted(String token): "برای دریافت برنامه تغذیه و ورزشی $token توکن از شما کسر خواهد شد."
+  accept: برای ادامه باید با شرایط شرح داده شده در پایین صفحه موافقت فرمایید.
+user:
+  profile: پروفایل
+  login: ورود
+  forgotten_pass: رمز عبور را فراموش کردم!
+  register: ثبت نام
+  email: ایمیل
+  password: رمز عبور
+  password_repeat: تکرار رمز عبور
+  fill: لطفا پر کنید
+  wrong_email: ایمیل اشتباه وارد شده
+  wrong_password: رمز عبور باید دارای حرف و عدد و بیش از 6 حرف باشد
+  pass_not_match: رمز عبور و تکرار آن یکسان نمیباشند
+  registration_failed: خطا در ثبت نام! لطفا از صحت عدم ثبت نام مجدد و اتصال اینترنت خود اطمینان حاصل فرمایید.
+  login_failed: خطا در ورود! لطفا از صحت نام کاربری و رمز عبور وارد شده اطمینان حاصل فرمایید.
+  recover_password:  ایمیل خود را که با آن ثبت نام کرده اید وارد کرده و دکمه ی تایید را فشار دهید، سپس برای برای تغییر رمز عبور خود به ایمیل خود مراجعه کنید.
+  success: عملیات با موفقیت انجام شد!
+  failure: خطا در پردازش!
+  set_to_default: برگشت به حالت پیش فرض.
+  sure_with_decision: آیا از انتخاب خود اطمینان دارید؟
+  sure_to_exit: با خروج از برنامه برای شروع مجدد باید ایمیل و رمز عبور خود را مجدداً وارد کنید. آیا مایل به خروج از برنامه میباشید؟
+  not_enough_token: مقدار توکن کافی نمیباشد
+  birth: تاریخ تولد
+  firstname: نام
+  lastname: نام خانوادگی
+  gender: جنسیت
+  age: سن
+  female: زن
+  male: مرد
+  choose_profile_picture: انتخاب تصویر پروفایل
+cart:
+  cart: سبد خرید
+  empty: سبد خرید شما خالی میباشد.
+  add_to_cart: افزودن به سبد خرید
+tutorial:
+  tutorial: آموزش
+  has_tutorial: شما این آموزش را دارید.
+  videos: ویدیوهای آموزشی
+  video: ویدیوی آموزشی
+  not_enough_token: مقدار توکن شما برای خرید درون برنامه این آموزش کافی نمیباشد!
+  token_deduction(String token): "با تایید، مقدار $token کوپن جهت اتخاذ ویدیو و محتوای آموزشی، از شما کسر خواهد شد."
+muscles:
+  chest: سینه
+  back: پشت
+  biceps: جلوبازو
+  triceps: پشت بازو
+  abs: شکم
+  calves: ساق پا
+  forearms: ساعد
+  glutes: باسن
+  hamstring: پشت پا
+  lateral: زیر بغل
+  trapezoid: کول
+  shoulder: شانه
+  leg: پا
+  aerobics: هوازی
+  trx: حرکات با کش
+  multimuscle: حرکات چند عضله ای
+  misc: سایر عضلات
+order:
+  phone_number: شماره تلفن
+  country: کشور
+  state: استان
+  city: شهر
+  address: آدرس
+  order: سفارش
+body_composition:
+  height: قد
+  weight: وزن
+  wrist: دور مچ
+  waist: دور کمر
+  muscle_mass: وزن عضله(muscle mass)
+  fat_mass: وزن چربی(fat mass)
+  kilogram: کیلوگرم
+  centimeter: سانتی متر
+  body_image: تصویر اندام از گردن به پایین
+  body_composition_image: تصویر بادی کامپوزیشن
+  blood_test_image: تصویر آزمایش خون
+  medical_profile: پرونده پزشکی
+nutrition:
+  program: برنامه ی تغذیه
+  not_ready: برنامه تغذیه ی شما طراحی نشده است!
+  calory: کالری
+  content: محتوا
+  protein: پروتئین
+  fat: چربی
+  carbs: کربوهیدرات
+  protein_percentage: درصد پروتئین
+  fat_percentage: درصد چربی
+  carbs_percentage: درصد کربوهیدرات
+  gram: گرم
+  types: انواع
+  nutrition: ماده غذایی
+  unit: واحد
+  quantity_in_unit: مقدار در واحد
+  choose_nutrition: انتخاب مواد غدایی برای برنامه
+  choose_meal: انتخاب وعده غذایی برای برنامه
+  choose_unit: انتخاب واحد برای مواد غذایی
+  want_meal_removed: آیا مایل به حذف وعده ی غذایی هستید؟
+  atleast_one_nutrition: لطفا حداقل یک ماده غذایی انتخاب کنید!
+  atleast_one_meal: لطفا حداقل یک وعده غذایی انتخاب کنید!
+  addition_must_be_100: مجموع درصد های پروتئین، کربوهیدات و چربی باید 100 باشد
+  fill_percentage: لطفا درصد های پروتئین، کربوهیدات و چربی را پر کنید
+  fill_calory: لطفا مقدار کالری را پر کنید
+fitness:
+  program: برنامه ی تمرینی
+  not_ready: برنامه ورزشی شما طراحی نشده است!
+  sets: ست ها
+  set: ست
+  reps: تعداد
+  min_rep: حداقل تعداد
+  max_rep: حداکثر تعداد
+  move: حرکت
+  equipment: تجهیزات
+  muscle: عضله
+  quantity: مقدار
+  attribute: مشخصه
+  workout:
+    power: قدرتی
+    bodybuilding: بدنسازی حجمی
+    bodybuilding_classic: بدنسازی
+    fitness: تناسب اندام
+    endurance: استقامتی
+    cardio: هوازی
+    type: مدل تمرین
+    day_numbers: تعداد روزهای تمرینی
+    atleast_one_day: حداقل باید یک روز تمرینی وارد کرد!
+    type_empty: مدل تمرین انتخاب نشده
+    set_and_reps_number: تعداد ست و تکرار
+    press_to_move: برای تغییر در ترتیب حرکات بر روی حرکت به صورت طولانی فشار داده و سپس حرکت دهید!
+meals:
+  breakfast: صبحانه
+  brunch: صبحانه دوم
+  lunch: ناهار
+  afternoonmeal: عصرانه
+  dinner: شام
+  evemeal: وعده قبل از خواب
+  beforetraining: وعده قبل از ورزش
+  aftertraining: وعده بعد از ورزش
+  midnightsupper: صحری
+  iftar: افطار
+  snack1: میان وعده اول
+  snack2: میان وعده دوم
+  snack3: میان وعده سوم
+  snack4: میان وعده چهارم
+  snack5: میان وعده پنجم
+  snack6: میان وعده ششم
+progress:
+  today_nutrition_assessment: ارزیابی تغذیه امروز
+  today_fitness_assessment: ارزیابی تمرین امروز
+  fitness_assessment: ارزیابی تمرینی
+  nutrition_assessment: ارزیابی تغذیه
+  progress: پیشرفت
+  assessment_done_for_today: شما برای امروز ارزیابی انجام داده اید
+specialist:
+  specialist: متخصص
+  specialists: متخصصین
+  field: رشته
+  resume: رزومه
+  busy: مشغول
+  degree: درجه تحصیلی

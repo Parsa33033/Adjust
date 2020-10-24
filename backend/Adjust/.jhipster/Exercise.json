@@ -1,0 +1,48 @@
+{
+  "name": "Exercise",
+  "fields": [
+    {
+      "fieldName": "number",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "sets",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "repsMin",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "repsMax",
+      "fieldType": "Integer"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "move",
+      "otherEntityRelationshipName": "exercise",
+      "relationshipName": "move",
+      "otherEntityField": "id"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "workout",
+      "otherEntityRelationshipName": "exercises",
+      "relationshipName": "workout",
+      "otherEntityField": "id"
+    }
+  ],
+  "changelogDate": "20201014074846",
+  "entityTableName": "exercise",
+  "dto": "mapstruct",
+  "pagination": "no",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

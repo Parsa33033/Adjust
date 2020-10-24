@@ -1,0 +1,11 @@
+id;name;item_id;description;price;image;image_content_type;orderable;number
+1;Vermont Checking Account;2478;../fake-data/blob/hipster.txt;55623;../fake-data/blob/hipster.png;image/png;false;64438
+2;Product;39474;../fake-data/blob/hipster.txt;95872;../fake-data/blob/hipster.png;image/png;true;61712
+3;Branding Checking Account;91930;../fake-data/blob/hipster.txt;26010;../fake-data/blob/hipster.png;image/png;false;68920
+4;calculating methodologies;78750;../fake-data/blob/hipster.txt;59815;../fake-data/blob/hipster.png;image/png;false;21293
+5;Ball Liaison encoding;99937;../fake-data/blob/hipster.txt;89893;../fake-data/blob/hipster.png;image/png;true;1674
+6;Bedfordshire Metal Forward;89101;../fake-data/blob/hipster.txt;62381;../fake-data/blob/hipster.png;image/png;false;72893
+7;Borders Unbranded Granite Fish;70234;../fake-data/blob/hipster.txt;89049;../fake-data/blob/hipster.png;image/png;false;91486
+8;Buckinghamshire;76512;../fake-data/blob/hipster.txt;29512;../fake-data/blob/hipster.png;image/png;true;88649
+9;reboot Dynamic;11997;../fake-data/blob/hipster.txt;65886;../fake-data/blob/hipster.png;image/png;true;99291
+10;SMS static Soft;56687;../fake-data/blob/hipster.txt;33106;../fake-data/blob/hipster.png;image/png;true;42780

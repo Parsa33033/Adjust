@@ -1,0 +1,23 @@
+{
+  "adjustApp": {
+    "programDescription": {
+      "home": {
+        "title": "Program Descriptions",
+        "createLabel": "Create a new Program Description",
+        "createOrEditLabel": "Create or edit a Program Description",
+        "notFound": "No Program Descriptions found"
+      },
+      "created": "A new Program Description is created with identifier {{ param }}",
+      "updated": "A Program Description is updated with identifier {{ param }}",
+      "deleted": "A Program Description is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Program Description {{ id }}?"
+      },
+      "detail": {
+        "title": "Program Description"
+      },
+      "text": "Text",
+      "type": "Type"
+    }
+  }
+}

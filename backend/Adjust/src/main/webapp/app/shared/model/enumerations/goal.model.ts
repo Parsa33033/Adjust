@@ -1,0 +1,5 @@
+export const enum Goal {
+  DECREASEWEIGHT = 'DECREASEWEIGHT',
+
+  INCREASEWEIGHT = 'INCREASEWEIGHT',
+}

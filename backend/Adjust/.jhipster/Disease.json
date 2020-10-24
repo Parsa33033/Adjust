@@ -1,0 +1,42 @@
+{
+  "name": "Disease",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "proteinPercentage",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "carbsPercentage",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "fatPercentage",
+      "fieldType": "Integer"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-many",
+      "otherEntityName": "medicalProfile",
+      "otherEntityRelationshipName": "diseases",
+      "relationshipName": "medicalProfiles",
+      "otherEntityField": "id",
+      "ownerSide": false
+    }
+  ],
+  "changelogDate": "20201014073546",
+  "entityTableName": "disease",
+  "dto": "mapstruct",
+  "pagination": "no",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

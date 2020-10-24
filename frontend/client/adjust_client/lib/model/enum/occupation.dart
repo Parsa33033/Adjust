@@ -1,0 +1,12 @@
+enum Occupation {
+  NONE,
+  STUDENT,
+  FREELANCER,
+  LABOR,
+  EMPLOYEE,
+  MEDICAL,
+  ENGINEERING,
+  MANAGER,
+  HOUSEWIFE,
+  OTHERS
+}

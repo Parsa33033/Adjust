@@ -1,0 +1,9 @@
+{
+  "adjustApp": {
+    "ProgramType": {
+      "null": "",
+      "NUTRITION": "NUTRITION",
+      "FITNESS": "FITNESS"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "adjustApp": {
+    "FinancialStatus": {
+      "null": "",
+      "BAD": "BAD",
+      "NORMAL": "NORMAL",
+      "GOOD": "GOOD",
+      "PERFECT": "PERFECT"
+    }
+  }
+}

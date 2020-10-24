@@ -1,0 +1,11 @@
+id;name;description;unit;min_unit_low;min_unit_normal;min_unit_max;calory_boundry_min;calory_boundry_max;calories_per_unit;protein_per_unit;carbs_per_unit;fat_in_unit
+1;magenta project;../fake-data/blob/hipster.txt;84820;8296;45229;30412;39243;9062;32160;20042;56557;57413
+2;Data Somoni SMS;../fake-data/blob/hipster.txt;81097;29247;17489;57197;33967;77845;60707;53160;71084;90587
+3;digital Investor orchid;../fake-data/blob/hipster.txt;48438;34692;3501;97871;87366;36952;68163;26072;88735;20174
+4;Home Loan Account;../fake-data/blob/hipster.txt;80439;22100;70559;77174;69383;33076;95541;19194;55137;79944
+5;dot-com American Samoa Investment Account;../fake-data/blob/hipster.txt;9622;19925;20142;39112;99163;53157;10642;24238;59317;79083
+6;cultivate;../fake-data/blob/hipster.txt;37081;58772;25577;8183;38638;65565;18157;80785;41737;37542
+7;Tuvalu;../fake-data/blob/hipster.txt;72094;60935;34230;45629;88146;1048;99977;71453;50623;59536
+8;Kroon;../fake-data/blob/hipster.txt;21010;48625;56007;11640;83381;42625;16709;43403;73187;53947
+9;iterate ability;../fake-data/blob/hipster.txt;15499;98388;15015;30487;71995;37478;80982;60017;19739;83727
+10;Fresh Curve Generic;../fake-data/blob/hipster.txt;8721;11088;62082;76006;50585;35000;79109;38868;99130;78038

@@ -1,0 +1,13 @@
+export const enum BMICategory {
+  UNDERWEIGHT = 'UNDERWEIGHT',
+
+  NORMAL = 'NORMAL',
+
+  OVERWEIGHT = 'OVERWEIGHT',
+
+  OBESE = 'OBESE',
+
+  HIGHOBESE = 'HIGHOBESE',
+
+  EXTRAOBESE = 'EXTRAOBESE',
+}

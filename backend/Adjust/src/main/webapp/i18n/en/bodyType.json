@@ -1,0 +1,10 @@
+{
+  "adjustApp": {
+    "BodyType": {
+      "null": "",
+      "MESOMORPH": "MESOMORPH",
+      "ECTOMORPH": "ECTOMORPH",
+      "ENDOMORPH": "ENDOMORPH"
+    }
+  }
+}

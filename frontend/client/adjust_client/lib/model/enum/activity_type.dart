@@ -1,0 +1,4 @@
+
+enum ActivityType {
+  SEDENTARY, LIGHT, MODERATE, HIGH, EXTRA
+}

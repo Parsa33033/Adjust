@@ -1,0 +1,11 @@
+id;have_lost_weight;drowsiness;good_night_sleep;hours_of_traning_per_week;love_for_sugar;over_eating;marital_status;children_number;education;occupation;hours_of_work_daily;financial_status;city;use_of_medicine;medicines;have_allergy;allergy;have_disease;blood_type
+1;true;true;true;8782;false;true;MARRIED;30714;BACHELOR;MANAGER;49746;PERFECT;Walkerside;true;../fake-data/blob/hipster.txt;false;leverage;true;B
+2;false;true;false;39808;false;false;MARRIED;19267;DOCTORATE;MANAGER;14518;BAD;West Sigmund;true;../fake-data/blob/hipster.txt;false;granular;true;A
+3;true;false;true;68332;false;true;SINGLE;88438;DIPLOMA;OTHERS;47009;GOOD;Aubreehaven;false;../fake-data/blob/hipster.txt;true;Money Market Account;true;AB
+4;true;true;false;70827;false;true;MARRIED;87359;DIPLOMA;OTHERS;6621;BAD;Breitenberghaven;false;../fake-data/blob/hipster.txt;false;Qatari Rial;false;AB
+5;false;true;true;11848;false;true;SINGLE;62618;DIPLOMA;EMPLOYEE;48388;BAD;Walterborough;true;../fake-data/blob/hipster.txt;false;Checking Account;true;O
+6;false;false;false;32807;true;true;MARRIED;14246;BACHELOR;FREELANCER;86388;BAD;Maiatown;false;../fake-data/blob/hipster.txt;true;repurpose IB;true;O
+7;true;false;false;55228;true;false;SINGLE;36562;DIPLOMA;STUDENT;95465;GOOD;Thomasfurt;true;../fake-data/blob/hipster.txt;false;client-server Handcrafted;true;A
+8;false;false;false;1213;false;false;SINGLE;27328;MASTERS;STUDENT;41260;NORMAL;West Bennyville;false;../fake-data/blob/hipster.txt;true;Views visionary;true;B
+9;false;false;false;45484;true;false;MARRIED;90471;NONE;LABOR;72586;PERFECT;Schimmelburgh;true;../fake-data/blob/hipster.txt;false;Garden;true;A
+10;false;false;false;34122;false;false;SINGLE;50291;LOW;FREELANCER;34490;BAD;West Nyahaven;false;../fake-data/blob/hipster.txt;true;teal;false;B

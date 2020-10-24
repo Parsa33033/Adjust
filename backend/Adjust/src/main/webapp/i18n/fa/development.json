@@ -1,0 +1,29 @@
+{
+  "adjustApp": {
+    "development": {
+      "home": {
+        "title": "Developments",
+        "createLabel": "Create a new Development",
+        "createOrEditLabel": "Create or edit a Development",
+        "notFound": "No Developments found"
+      },
+      "created": "A new Development is created with identifier {{ param }}",
+      "updated": "A Development is updated with identifier {{ param }}",
+      "deleted": "A Development is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Development {{ id }}?"
+      },
+      "detail": {
+        "title": "Development"
+      },
+      "date": "Date",
+      "nutritionScore": "Nutrition Score",
+      "fitnessScore": "Fitness Score",
+      "weight": "Weight",
+      "bmi": "Bmi",
+      "lbm": "Lbm",
+      "pbf": "Pbf",
+      "adjustProgram": "Adjust Program"
+    }
+  }
+}

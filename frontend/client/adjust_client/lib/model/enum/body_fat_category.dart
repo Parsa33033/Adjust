@@ -1,0 +1,3 @@
+enum BodyFatCategory {
+  ESSENTIAL, ATHLETE, FITNESS, AVERAGE, OBESE
+}

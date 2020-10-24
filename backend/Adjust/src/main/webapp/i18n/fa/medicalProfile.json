@@ -1,0 +1,43 @@
+{
+  "adjustApp": {
+    "medicalProfile": {
+      "home": {
+        "title": "Medical Profiles",
+        "createLabel": "Create a new Medical Profile",
+        "createOrEditLabel": "Create or edit a Medical Profile",
+        "notFound": "No Medical Profiles found"
+      },
+      "created": "A new Medical Profile is created with identifier {{ param }}",
+      "updated": "A Medical Profile is updated with identifier {{ param }}",
+      "deleted": "A Medical Profile is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Medical Profile {{ id }}?"
+      },
+      "detail": {
+        "title": "Medical Profile"
+      },
+      "haveLostWeight": "Have Lost Weight",
+      "drowsiness": "Drowsiness",
+      "goodNightSleep": "Good Night Sleep",
+      "hoursOfTraningPerWeek": "Hours Of Traning Per Week",
+      "loveForSugar": "Love For Sugar",
+      "overEating": "Over Eating",
+      "maritalStatus": "Marital Status",
+      "childrenNumber": "Children Number",
+      "education": "Education",
+      "occupation": "Occupation",
+      "hoursOfWorkDaily": "Hours Of Work Daily",
+      "financialStatus": "Financial Status",
+      "city": "City",
+      "useOfMedicine": "Use Of Medicine",
+      "medicines": "Medicines",
+      "haveAllergy": "Have Allergy",
+      "allergy": "Allergy",
+      "haveDisease": "Have Disease",
+      "bloodType": "Blood Type",
+      "bodyComposition": "Body Composition",
+      "diseases": "Diseases",
+      "adjustClient": "Adjust Client"
+    }
+  }
+}

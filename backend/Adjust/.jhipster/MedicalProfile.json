@@ -1,0 +1,123 @@
+{
+  "name": "MedicalProfile",
+  "fields": [
+    {
+      "fieldName": "haveLostWeight",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "drowsiness",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "goodNightSleep",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "hoursOfTraningPerWeek",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "loveForSugar",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "overEating",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "maritalStatus",
+      "fieldType": "MaritalStatus",
+      "fieldValues": "MARRIED,SINGLE"
+    },
+    {
+      "fieldName": "childrenNumber",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "education",
+      "fieldType": "Education",
+      "fieldValues": "NONE,LOW,DIPLOMA,BACHELOR,MASTERS,DOCTORATE"
+    },
+    {
+      "fieldName": "occupation",
+      "fieldType": "Occupation",
+      "fieldValues": "NONE,STUDENT,FREELANCER,LABOR,EMPLOYEE,MEDICAL,ENGINEERING,MANAGER,HOUSEWIFE,OTHERS"
+    },
+    {
+      "fieldName": "hoursOfWorkDaily",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "financialStatus",
+      "fieldType": "FinancialStatus",
+      "fieldValues": "BAD,NORMAL,GOOD,PERFECT"
+    },
+    {
+      "fieldName": "city",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "useOfMedicine",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "medicines",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "text"
+    },
+    {
+      "fieldName": "haveAllergy",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "allergy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "haveDisease",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "bloodType",
+      "fieldType": "BloodType",
+      "fieldValues": "A,B,AB,O"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "bodyComposition",
+      "otherEntityRelationshipName": "medicalProfile",
+      "relationshipName": "bodyComposition",
+      "otherEntityField": "id",
+      "ownerSide": true
+    },
+    {
+      "relationshipType": "many-to-many",
+      "otherEntityName": "disease",
+      "otherEntityRelationshipName": "medicalProfiles",
+      "relationshipName": "diseases",
+      "otherEntityField": "id",
+      "ownerSide": true
+    },
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "adjustClient",
+      "otherEntityRelationshipName": "medicalProfile",
+      "relationshipName": "adjustClient",
+      "ownerSide": false
+    }
+  ],
+  "changelogDate": "20201014073446",
+  "entityTableName": "medical_profile",
+  "dto": "mapstruct",
+  "pagination": "no",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

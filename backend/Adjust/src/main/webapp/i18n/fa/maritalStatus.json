@@ -1,0 +1,9 @@
+{
+  "adjustApp": {
+    "MaritalStatus": {
+      "null": "",
+      "MARRIED": "MARRIED",
+      "SINGLE": "SINGLE"
+    }
+  }
+}

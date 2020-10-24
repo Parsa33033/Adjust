@@ -1,0 +1,37 @@
+{
+  "adjustApp": {
+    "adjustProgram": {
+      "home": {
+        "title": "Adjust Programs",
+        "createLabel": "Create a new Adjust Program",
+        "createOrEditLabel": "Create or edit a Adjust Program",
+        "notFound": "No Adjust Programs found"
+      },
+      "created": "A new Adjust Program is created with identifier {{ param }}",
+      "updated": "A Adjust Program is updated with identifier {{ param }}",
+      "deleted": "A Adjust Program is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Adjust Program {{ id }}?"
+      },
+      "detail": {
+        "title": "Adjust Program"
+      },
+      "createdAt": "Created At",
+      "expirationDate": "Expiration Date",
+      "medicalProfileDone": "Medical Profile Done",
+      "bodyCompositionDone": "Body Composition Done",
+      "nutritionDone": "Nutrition Done",
+      "fitnessDone": "Fitness Done",
+      "paid": "Paid",
+      "seenByClient": "Seen By Client",
+      "seenBySpecialist": "Seen By Specialist",
+      "designed": "Designed",
+      "bodyComposition": "Body Composition",
+      "fitnessProgram": "Fitness Program",
+      "nutritionProgram": "Nutrition Program",
+      "developments": "Developments",
+      "adjustClient": "Adjust Client",
+      "specialist": "Specialist"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Meal",
+  "fields": [
+    {
+      "fieldName": "mealType",
+      "fieldType": "MealType",
+      "fieldValues": "BREAKFAST,LUNCH,DINNER,BRUNCH,EVEMEAL,AFTERNOONMEAL,BEFORETRAINING,AFTERTRAINING,MIDNIGHTSUPPER,IFTAR,SNACK1,SNACK2,SNACK3,SNACK4,SNACK5,SNACK6"
+    },
+    {
+      "fieldName": "number",
+      "fieldType": "Integer"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-many",
+      "otherEntityName": "nutrition",
+      "otherEntityRelationshipName": "meals",
+      "relationshipName": "nutritions",
+      "otherEntityField": "id",
+      "ownerSide": true
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "nutritionProgram",
+      "otherEntityRelationshipName": "meals",
+      "relationshipName": "nutritionProgram",
+      "otherEntityField": "id"
+    }
+  ],
+  "changelogDate": "20201014075146",
+  "entityTableName": "meal",
+  "dto": "mapstruct",
+  "pagination": "no",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

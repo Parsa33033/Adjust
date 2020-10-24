@@ -1,0 +1,49 @@
+{
+  "name": "Move",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "text"
+    },
+    {
+      "fieldName": "muscleName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "moveType",
+      "fieldType": "MoveType",
+      "fieldValues": "CHEST,SHOULDER,TRAPEZOID,BACK,LATERAL,BICEP,TRICEP,FOREARM,LEG,HAMSTRING,GLUTES,CALVES,ABS,AEROBICS,TRX,MULTIMUSCLE,MISC"
+    },
+    {
+      "fieldName": "place",
+      "fieldType": "WorkoutLocation",
+      "fieldValues": "HOME,GYM"
+    },
+    {
+      "fieldName": "equipment",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "picture",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "image"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20201014074946",
+  "entityTableName": "move",
+  "dto": "mapstruct",
+  "pagination": "no",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

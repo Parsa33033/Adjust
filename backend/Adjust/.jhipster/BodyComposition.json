@@ -1,0 +1,161 @@
+{
+  "name": "BodyComposition",
+  "fields": [
+    {
+      "fieldName": "createdAt",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "age",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "gender",
+      "fieldType": "Gender",
+      "fieldValues": "MALE,FEMALE"
+    },
+    {
+      "fieldName": "height",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "weight",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "wrist",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "waist",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "hip",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "abdomen",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "neck",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "waistHipRatio",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "idealWeightMin",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "idealWeightMax",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "bestWeight",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "bmi",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "bmiCategory",
+      "fieldType": "BMICategory",
+      "fieldValues": "UNDERWEIGHT,NORMAL,OVERWEIGHT,OBESE,HIGHOBESE,EXTRAOBESE"
+    },
+    {
+      "fieldName": "bmr",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "lbm",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "pbf",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "bodyFatCategory",
+      "fieldType": "BodyFatCategory",
+      "fieldValues": "ESSENTIAL,ATHLETE,FITNESS,AVERAGE,OBESE"
+    },
+    {
+      "fieldName": "smm",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "bodyTypeNumber",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "bodyType",
+      "fieldType": "BodyType",
+      "fieldValues": "MESOMORPH,ECTOMORPH,ENDOMORPH"
+    },
+    {
+      "fieldName": "frameSize",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "bodyFrameSize",
+      "fieldType": "BodyFrameSize",
+      "fieldValues": "SMALL,MEDIUM,LARGE"
+    },
+    {
+      "fieldName": "visceralFatLevel",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "workoutLocation",
+      "fieldType": "WorkoutLocation",
+      "fieldValues": "HOME,GYM"
+    },
+    {
+      "fieldName": "goal",
+      "fieldType": "Goal",
+      "fieldValues": "DECREASEWEIGHT,INCREASEWEIGHT"
+    },
+    {
+      "fieldName": "activityType",
+      "fieldType": "ActivityType",
+      "fieldValues": "SEDENTARY,LIGHT,MODERATE,HIGH,EXTRA"
+    },
+    {
+      "fieldName": "workoutType",
+      "fieldType": "WorkoutType",
+      "fieldValues": "POWERLIFTING,BODYBUILDING,BODYBUILDING_CLASSIC,FITNESS,ENDURANCE,CARDIO"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "medicalProfile",
+      "otherEntityRelationshipName": "bodyComposition",
+      "relationshipName": "medicalProfile",
+      "ownerSide": false
+    },
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "adjustProgram",
+      "otherEntityRelationshipName": "bodyComposition",
+      "relationshipName": "adjustProgram",
+      "ownerSide": false
+    }
+  ],
+  "changelogDate": "20201014074546",
+  "entityTableName": "body_composition",
+  "dto": "mapstruct",
+  "pagination": "no",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

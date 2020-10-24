@@ -1,0 +1,26 @@
+{
+  "adjustApp": {
+    "disease": {
+      "home": {
+        "title": "Diseases",
+        "createLabel": "Create a new Disease",
+        "createOrEditLabel": "Create or edit a Disease",
+        "notFound": "No Diseases found"
+      },
+      "created": "A new Disease is created with identifier {{ param }}",
+      "updated": "A Disease is updated with identifier {{ param }}",
+      "deleted": "A Disease is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Disease {{ id }}?"
+      },
+      "detail": {
+        "title": "Disease"
+      },
+      "name": "Name",
+      "proteinPercentage": "Protein Percentage",
+      "carbsPercentage": "Carbs Percentage",
+      "fatPercentage": "Fat Percentage",
+      "medicalProfiles": "Medical Profiles"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.adjust.api",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.10.3",
+    "applicationType": "monolith",
+    "baseName": "Adjust",
+    "packageName": "com.adjust.api",
+    "packageFolder": "com/adjust/api",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": false,
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MTc0M2I5YWQwYWFlZmRlYmIzZTkxNjhiMzE3MjI4NDYyNDJlZmFmZDczNTVjZmQ2YmEyMTQ4ZGJmZTlmM2Q2Yzg0ZGY5ZTk4ZWQ3ZGJjMDM1MGEyZjBkNDE5ZjliM2Q4YzFiZTFjM2NkYTYwYThlYjU2YjgyNTMxZTIzYTA5MzY=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "react",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "creationTimestamp": 1602659967178,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": ["en", "fa"],
+    "blueprints": []
+  }
+}

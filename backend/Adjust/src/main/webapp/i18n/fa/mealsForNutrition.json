@@ -1,0 +1,23 @@
+{
+  "adjustApp": {
+    "mealsForNutrition": {
+      "home": {
+        "title": "Meals For Nutritions",
+        "createLabel": "Create a new Meals For Nutrition",
+        "createOrEditLabel": "Create or edit a Meals For Nutrition",
+        "notFound": "No Meals For Nutritions found"
+      },
+      "created": "A new Meals For Nutrition is created with identifier {{ param }}",
+      "updated": "A Meals For Nutrition is updated with identifier {{ param }}",
+      "deleted": "A Meals For Nutrition is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Meals For Nutrition {{ id }}?"
+      },
+      "detail": {
+        "title": "Meals For Nutrition"
+      },
+      "mealType": "Meal Type",
+      "nutrition": "Nutrition"
+    }
+  }
+}

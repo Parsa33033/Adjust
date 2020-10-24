@@ -1,0 +1,77 @@
+{
+  "name": "Specialist",
+  "fields": [
+    {
+      "fieldName": "username",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "firstName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "lastName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "birthday",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "gender",
+      "fieldType": "Gender",
+      "fieldValues": "MALE,FEMALE"
+    },
+    {
+      "fieldName": "degree",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "field",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "resume",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "text"
+    },
+    {
+      "fieldName": "stars",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "image",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "image"
+    },
+    {
+      "fieldName": "busy",
+      "fieldType": "Boolean"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "adjustProgram",
+      "otherEntityRelationshipName": "specialist",
+      "relationshipName": "adjustPrograms"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "conversation",
+      "otherEntityRelationshipName": "specialist",
+      "relationshipName": "conversations"
+    }
+  ],
+  "changelogDate": "20201014074146",
+  "entityTableName": "specialist",
+  "dto": "mapstruct",
+  "pagination": "no",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

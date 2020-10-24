@@ -1,0 +1,37 @@
+{
+  "name": "Conversation",
+  "fields": [],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "chatMessage",
+      "otherEntityRelationshipName": "conversation",
+      "relationshipName": "messages"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "adjustClient",
+      "otherEntityRelationshipName": "conversations",
+      "relationshipName": "adjustClient",
+      "otherEntityField": "id"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "specialist",
+      "otherEntityRelationshipName": "conversations",
+      "relationshipName": "specialist",
+      "otherEntityField": "id"
+    }
+  ],
+  "changelogDate": "20201014075546",
+  "entityTableName": "conversation",
+  "dto": "mapstruct",
+  "pagination": "no",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

@@ -1,0 +1,40 @@
+{
+  "name": "FitnessProgram",
+  "fields": [
+    {
+      "fieldName": "type",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "text"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "workout",
+      "otherEntityRelationshipName": "fitnessProgram",
+      "relationshipName": "workouts"
+    },
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "adjustProgram",
+      "otherEntityRelationshipName": "fitnessProgram",
+      "relationshipName": "adjustProgram",
+      "ownerSide": false
+    }
+  ],
+  "changelogDate": "20201014074646",
+  "entityTableName": "fitness_program",
+  "dto": "mapstruct",
+  "pagination": "no",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

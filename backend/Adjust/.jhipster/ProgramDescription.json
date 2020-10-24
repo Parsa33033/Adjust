@@ -1,0 +1,27 @@
+{
+  "name": "ProgramDescription",
+  "fields": [
+    {
+      "fieldName": "text",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "text"
+    },
+    {
+      "fieldName": "type",
+      "fieldType": "ProgramType",
+      "fieldValues": "NUTRITION,FITNESS"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20201014074346",
+  "entityTableName": "program_description",
+  "dto": "mapstruct",
+  "pagination": "no",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

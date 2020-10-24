@@ -1,0 +1,11 @@
+{
+  "adjustApp": {
+    "PurchaseOption": {
+      "null": "",
+      "PROGRAM": "PROGRAM",
+      "NUTRITION": "NUTRITION",
+      "FITNESS": "FITNESS",
+      "TUTORIAL": "TUTORIAL"
+    }
+  }
+}

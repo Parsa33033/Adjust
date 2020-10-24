@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.9.xsd">
+    <!--
+        Added the constraints for entity Development.
+    -->
+    <changeSet id="20201014074446-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="adjust_program_id"
+                                 baseTableName="development"
+                                 constraintName="fk_development_adjust_program_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="adjust_program"/>
+
+    </changeSet>
+</databaseChangeLog>

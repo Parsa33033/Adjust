@@ -1,0 +1,12 @@
+{
+  "adjustApp": {
+    "BodyFatCategory": {
+      "null": "",
+      "ESSENTIAL": "ESSENTIAL",
+      "ATHLETE": "ATHLETE",
+      "FITNESS": "FITNESS",
+      "AVERAGE": "AVERAGE",
+      "OBESE": "OBESE"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "adjustApp": {
+    "bodyComposition": {
+      "home": {
+        "title": "Body Compositions",
+        "createLabel": "Create a new Body Composition",
+        "createOrEditLabel": "Create or edit a Body Composition",
+        "notFound": "No Body Compositions found"
+      },
+      "created": "A new Body Composition is created with identifier {{ param }}",
+      "updated": "A Body Composition is updated with identifier {{ param }}",
+      "deleted": "A Body Composition is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Body Composition {{ id }}?"
+      },
+      "detail": {
+        "title": "Body Composition"
+      },
+      "createdAt": "Created At",
+      "age": "Age",
+      "gender": "Gender",
+      "height": "Height",
+      "weight": "Weight",
+      "wrist": "Wrist",
+      "waist": "Waist",
+      "hip": "Hip",
+      "abdomen": "Abdomen",
+      "neck": "Neck",
+      "waistHipRatio": "Waist Hip Ratio",
+      "idealWeightMin": "Ideal Weight Min",
+      "idealWeightMax": "Ideal Weight Max",
+      "bestWeight": "Best Weight",
+      "bmi": "Bmi",
+      "bmiCategory": "Bmi Category",
+      "bmr": "Bmr",
+      "lbm": "Lbm",
+      "pbf": "Pbf",
+      "bodyFatCategory": "Body Fat Category",
+      "smm": "Smm",
+      "bodyTypeNumber": "Body Type Number",
+      "bodyType": "Body Type",
+      "frameSize": "Frame Size",
+      "bodyFrameSize": "Body Frame Size",
+      "visceralFatLevel": "Visceral Fat Level",
+      "workoutLocation": "Workout Location",
+      "goal": "Goal",
+      "activityType": "Activity Type",
+      "workoutType": "Workout Type",
+      "medicalProfile": "Medical Profile",
+      "adjustProgram": "Adjust Program"
+    }
+  }
+}

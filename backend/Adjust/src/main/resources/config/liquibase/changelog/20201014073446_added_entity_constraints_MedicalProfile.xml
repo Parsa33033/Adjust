@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.9.xsd">
+    <!--
+        Added the constraints for entity MedicalProfile.
+    -->
+    <changeSet id="20201014073446-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="body_composition_id"
+                                 baseTableName="medical_profile"
+                                 constraintName="fk_medical_profile_body_composition_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="body_composition"/>
+
+        <addForeignKeyConstraint baseColumnNames="medical_profile_id"
+                                 baseTableName="medical_profile_diseases"
+                                 constraintName="fk_medical_profile_diseases_medical_profile_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="medical_profile"/>
+
+        <addForeignKeyConstraint baseColumnNames="diseases_id"
+                                 baseTableName="medical_profile_diseases"
+                                 constraintName="fk_medical_profile_diseases_diseases_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="disease"/>
+        
+    </changeSet>
+</databaseChangeLog>

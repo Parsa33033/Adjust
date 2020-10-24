@@ -1,0 +1,12 @@
+{
+  "adjustApp": {
+    "ActivityType": {
+      "null": "",
+      "SEDENTARY": "SEDENTARY",
+      "LIGHT": "LIGHT",
+      "MODERATE": "MODERATE",
+      "HIGH": "HIGH",
+      "EXTRA": "EXTRA"
+    }
+  }
+}

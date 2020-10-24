@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.9.xsd">
+    <!--
+        Added the constraints for entity AdjustClient.
+    -->
+    <changeSet id="20201014073346-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="medical_profile_id"
+                                 baseTableName="adjust_client"
+                                 constraintName="fk_adjust_client_medical_profile_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="medical_profile"/>
+
+        <addForeignKeyConstraint baseColumnNames="adjust_client_id"
+                                 baseTableName="adjust_client_tutorials"
+                                 constraintName="fk_adjust_client_tutorials_adjust_client_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="adjust_client"/>
+
+        <addForeignKeyConstraint baseColumnNames="tutorials_id"
+                                 baseTableName="adjust_client_tutorials"
+                                 constraintName="fk_adjust_client_tutorials_tutorials_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="tutorial"/>
+        
+    </changeSet>
+</databaseChangeLog>

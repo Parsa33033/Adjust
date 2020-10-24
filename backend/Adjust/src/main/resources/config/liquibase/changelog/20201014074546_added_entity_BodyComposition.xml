@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.9.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+        <property name="autoIncrement" value="true"/>
+
+    <!--
+        Added the entity BodyComposition.
+    -->
+    <changeSet id="20201014074546-1" author="jhipster">
+        <createTable tableName="body_composition">
+            <column name="id" type="bigint" autoIncrement="${autoIncrement}">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="created_at" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="age" type="integer">
+                <constraints nullable="true" />
+            </column>
+            <column name="gender" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="height" type="double">
+                <constraints nullable="true" />
+            </column>
+            <column name="weight" type="double">
+                <constraints nullable="true" />
+            </column>
+            <column name="wrist" type="double">
+                <constraints nullable="true" />
+            </column>
+            <column name="waist" type="double">
+                <constraints nullable="true" />
+            </column>
+            <column name="hip" type="double">
+                <constraints nullable="true" />
+            </column>
+            <column name="abdomen" type="double">
+                <constraints nullable="true" />
+            </column>
+            <column name="neck" type="double">
+                <constraints nullable="true" />
+            </column>
+            <column name="waist_hip_ratio" type="double">
+                <constraints nullable="true" />
+            </column>
+            <column name="ideal_weight_min" type="double">
+                <constraints nullable="true" />
+            </column>
+            <column name="ideal_weight_max" type="double">
+                <constraints nullable="true" />
+            </column>
+            <column name="best_weight" type="double">
+                <constraints nullable="true" />
+            </column>
+            <column name="bmi" type="double">
+                <constraints nullable="true" />
+            </column>
+            <column name="bmi_category" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="bmr" type="double">
+                <constraints nullable="true" />
+            </column>
+            <column name="lbm" type="double">
+                <constraints nullable="true" />
+            </column>
+            <column name="pbf" type="double">
+                <constraints nullable="true" />
+            </column>
+            <column name="body_fat_category" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="smm" type="double">
+                <constraints nullable="true" />
+            </column>
+            <column name="body_type_number" type="double">
+                <constraints nullable="true" />
+            </column>
+            <column name="body_type" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="frame_size" type="double">
+                <constraints nullable="true" />
+            </column>
+            <column name="body_frame_size" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="visceral_fat_level" type="double">
+                <constraints nullable="true" />
+            </column>
+            <column name="workout_location" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="goal" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="activity_type" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="workout_type" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <!-- jhipster-needle-liquibase-add-column - JHipster will add columns here -->
+        </createTable>
+    </changeSet>
+
+    <changeSet id="20201014074546-1-relations" author="jhipster">
+
+    </changeSet>
+    <!-- jhipster-needle-liquibase-add-changeset - JHipster will add changesets here -->
+
+    <!--
+        Load sample data generated with Faker.js
+        - This data can be easily edited using a CSV editor (or even MS Excel) and
+          is located in the 'src/main/resources/config/liquibase/fake-data' directory
+        - By default this data is applied when running with the JHipster 'dev' profile.
+          This can be customized by adding or removing 'faker' in the 'spring.liquibase.contexts'
+          Spring Boot configuration key.
+    -->
+    <changeSet id="20201014074546-1-data" author="jhipster" context="faker">
+        <loadData
+                  file="config/liquibase/fake-data/body_composition.csv"
+                  separator=";"
+                  tableName="body_composition">
+            <column name="id" type="numeric"/>
+            <column name="created_at" type="date"/>
+            <column name="age" type="numeric"/>
+            <column name="gender" type="string"/>
+            <column name="height" type="numeric"/>
+            <column name="weight" type="numeric"/>
+            <column name="wrist" type="numeric"/>
+            <column name="waist" type="numeric"/>
+            <column name="hip" type="numeric"/>
+            <column name="abdomen" type="numeric"/>
+            <column name="neck" type="numeric"/>
+            <column name="waist_hip_ratio" type="numeric"/>
+            <column name="ideal_weight_min" type="numeric"/>
+            <column name="ideal_weight_max" type="numeric"/>
+            <column name="best_weight" type="numeric"/>
+            <column name="bmi" type="numeric"/>
+            <column name="bmi_category" type="string"/>
+            <column name="bmr" type="numeric"/>
+            <column name="lbm" type="numeric"/>
+            <column name="pbf" type="numeric"/>
+            <column name="body_fat_category" type="string"/>
+            <column name="smm" type="numeric"/>
+            <column name="body_type_number" type="numeric"/>
+            <column name="body_type" type="string"/>
+            <column name="frame_size" type="numeric"/>
+            <column name="body_frame_size" type="string"/>
+            <column name="visceral_fat_level" type="numeric"/>
+            <column name="workout_location" type="string"/>
+            <column name="goal" type="string"/>
+            <column name="activity_type" type="string"/>
+            <column name="workout_type" type="string"/>
+            <!-- jhipster-needle-liquibase-add-loadcolumn - JHipster (and/or extensions) can add load columns here -->
+        </loadData>
+    </changeSet>
+
+</databaseChangeLog>

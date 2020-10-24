@@ -1,0 +1,34 @@
+{
+  "name": "AdjustPrice",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "option",
+      "fieldType": "PurchaseOption",
+      "fieldValues": "PROGRAM,NUTRITION,FITNESS,TUTORIAL"
+    },
+    {
+      "fieldName": "token",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "price",
+      "fieldType": "Double"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20201014073746",
+  "entityTableName": "adjust_price",
+  "dto": "mapstruct",
+  "pagination": "no",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

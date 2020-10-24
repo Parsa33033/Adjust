@@ -1,0 +1,10 @@
+{
+  "adjustApp": {
+    "BodyFrameSize": {
+      "null": "",
+      "SMALL": "SMALL",
+      "MEDIUM": "MEDIUM",
+      "LARGE": "LARGE"
+    }
+  }
+}

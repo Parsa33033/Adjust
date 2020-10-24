@@ -1,0 +1,3 @@
+enum MaritalStatus {
+  MARRIED, SINGLE
+}

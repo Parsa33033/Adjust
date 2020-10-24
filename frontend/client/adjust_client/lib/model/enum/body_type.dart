@@ -1,0 +1,4 @@
+
+enum BodyType {
+  MESOMORPH, ECTOMORPH, ENDOMORPH
+}

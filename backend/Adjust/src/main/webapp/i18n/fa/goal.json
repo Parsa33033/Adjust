@@ -1,0 +1,9 @@
+{
+  "adjustApp": {
+    "Goal": {
+      "null": "",
+      "DECREASEWEIGHT": "DECREASEWEIGHT",
+      "INCREASEWEIGHT": "INCREASEWEIGHT"
+    }
+  }
+}

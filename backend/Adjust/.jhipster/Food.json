@@ -1,0 +1,33 @@
+{
+  "name": "Food",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "nutrition",
+      "otherEntityRelationshipName": "foods",
+      "relationshipName": "nutrition",
+      "otherEntityField": "id"
+    }
+  ],
+  "changelogDate": "20201014075346",
+  "entityTableName": "food",
+  "dto": "mapstruct",
+  "pagination": "no",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}
